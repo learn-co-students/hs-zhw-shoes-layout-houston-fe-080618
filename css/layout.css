@@ -9,7 +9,7 @@
   -moz-box-sizing: border-box;
 }
 
-.clearfix:after {
+.row:after {
   content: ".";
   display: block;
   clear: both;
@@ -22,6 +22,31 @@
   clear: both;
 }
 
+.row {
+  margin-bottom:2%;
+}
+
 /* Posititoning Classes */
 
+.row:last-child{
+  margin-right:0px;
+}
+
+.col-8{
+  /*box-sizing: border-box;*/
+  width:66%;
+  float:left;
+  margin-right:2%;
+}
+
+.col-4:last-child{
+  margin-right:0px;
+}
+
+.col-4{
+  /*box-sizing: border-box;*/
+  width:32%;
+  float:left;
+  margin-right:2%;
+}
 
